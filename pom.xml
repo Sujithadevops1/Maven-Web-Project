@@ -6,7 +6,7 @@
   <groupId>com.mt.web</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project July9th</name>
   <description>war Web Project for Java</description>
 
@@ -82,13 +82,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>nexus-release</name>
-	    <url>http://34.221.181.43:8081/repository/maven-releases/</url>
+	      <name>suji_repo</name>
+	    <url>http://54.149.231.182:8081/repository/suji_repo/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>nexus-snapshot</name>
-	      <url>http://54.244.219.248:8081/repository/nexus-snapshot/</url>
+	      <name>suji_snap</name>
+	      <url>http://54.149.231.182:8081/repository/suji_snap/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
