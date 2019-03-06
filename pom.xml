@@ -83,12 +83,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>suji</name>
-	      <url>http://54.212.116.149:8081/repository/suji/</url>
+	      <url>http://34.219.152.103:8081/repository/suji_repo/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>sujisnap</name>
-	      <url>http://54.212.116.149:8081/repository/sujisnap/</url>
+	      <url>http://34.219.152.103:8081/repository/suji_snap/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
